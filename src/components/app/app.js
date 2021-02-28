@@ -3,13 +3,10 @@ import { BrowserRouter, NavLink, Route, Switch, Redirect } from 'react-router-do
 import Header from '../header'
 import CharactersList from '../characters-list'
 import CharacterDetails from '../character-details'
-//import ApiService from '../../services/api-client-service'
 
 import './app.scss'
 
 export default class App extends Component {
-
-    //api = new ApiService();
 
     render() {
 
