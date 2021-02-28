@@ -3,6 +3,7 @@ import { setRecords, fetchRecords } from '../reducers/characters-actions'
 import { SET_RECORDS, FETCH_RECORDS } from '../reducers/characters-types'
 import store from '../store'
 
+// todo API Service instead
 const fetchListFromApi = () => {
 
     const pageId = store.getState().characters.currentPage;

@@ -17,7 +17,7 @@ const ListWithData = (View, storeKey) => {
 
         componentDidMount() {
             window.addEventListener('scroll', this.handleScroll);
-            if(this.props.list.currentPage == 1) store.dispatch(this.props.action())
+            if(this.props.list.currentPage == 0) store.dispatch(this.props.action())
         }
 
         componentWillUnmount() {

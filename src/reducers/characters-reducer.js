@@ -6,7 +6,7 @@ const initialState = {
     pagesCount: 0,
     nextPage: null,
     bottomAxisX: 0,
-    currentPage: 1
+    currentPage: 0
 }
 
 export const charactersReducer = (store = initialState, action) => {
