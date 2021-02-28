@@ -1,0 +1,16 @@
+.items-list {
+}
+
+.items-list__item {
+  padding: 10px 10px;
+  display: block;
+
+}
+
+.items-list__item:nth-child(odd) {
+  background: rgb(65, 73, 79);
+}
+
+.items-list__item:nth-child(even) {
+  background: #3c414c;
+}
