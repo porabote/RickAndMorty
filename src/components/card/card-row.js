@@ -29,7 +29,7 @@ const CardRow = (props) => {
             if(props.value.name === undefined) title = parseLinks(props.value)
             break
         case "array":
-            title = props.value.map((val) => {console.log(val)})
+            title = props.value.map((val) => {
             break
         default:
             title = `${props.value}`;
